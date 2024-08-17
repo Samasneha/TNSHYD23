@@ -1,0 +1,14 @@
+package accessmodifiers;
+
+public class PublicEX {
+	public void display() {
+		System.out.println("PUBLIC ACCESS MODIFIER");
+	}
+}
+public class PublicEX2 {
+public static void main(String[] args) {
+		PublicEX obj = new PublicEX();
+		obj.display();
+		
+	}
+}
