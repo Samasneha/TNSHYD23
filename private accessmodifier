@@ -1,0 +1,14 @@
+package accessmodifiers;
+
+public class Private {
+	private void display()
+	{
+	System.out.println("private access modifier");
+	}
+}
+public class Privatemain {
+public static void main(String[] args) {
+		Private a1 = new Private();
+		a1.display();
+	}
+}
