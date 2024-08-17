@@ -1,0 +1,22 @@
+package approach2;
+public class Sample {
+		int a=4;
+		static int b=6;
+		int show() {
+			return 4;
+		}
+		static void display() {
+			System.out.println(6);
+			}
+		}
+public class C {
+
+	public static void main(String[] args) {
+		Sample b1=new Sample();
+		System.out.println(b1.a);
+		b1.show();
+		System.out.println(Sample.b);
+		Sample.display();
+	}
+
+}
