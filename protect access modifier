@@ -1,0 +1,14 @@
+package accessmodifiers;
+
+public class ProtectedEx {
+	protected void display() {
+		System.out.println("protect access modifier");
+}
+}
+	public class Protectedex2 extends ProtectedEx {
+		
+		public static void main(String[] args) {
+			Protectedex2 p3 = new Protectedex2();
+			p3.display();
+	}
+	}
