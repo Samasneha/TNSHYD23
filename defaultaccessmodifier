@@ -1,0 +1,16 @@
+package accessmodifiers;
+
+public class Default {
+	
+	void display() {
+		System.out.println("default access modifier");
+	}
+}
+public class DefaultMain {
+public static void main(String[] args) {
+		Default d1 = new Default();
+		d1.display();
+	}
+
+	}
+
